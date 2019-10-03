@@ -1,0 +1,114 @@
+.flex{
+	color: white;
+	font-size:100px;
+	text-align: center;
+	padding:15px;
+	height:100px; 	
+}
+.flexObjetdéjaacheté{
+	border: 2px double black;
+	background-color:grey;
+	display: inline-flex;
+	flex-direction:row; 
+	height:190px;
+	justify-content: space-between;
+	padding-top:5px;
+	padding-left: 5px;
+	padding-right: 5px; 
+
+}
+.flexObjetselectionnépardesamis{
+	border:2px double black;
+	background-color:grey;
+	display:inline-flex;
+	flex-direction: row;
+	height:190px; 
+	justify-content: space-between;
+	padding-top: 5px;
+	padding-left: 5px;
+	padding-right: 5px; 
+
+	
+
+}
+.flexObjeturgent{
+	border:2px double black;
+	background-color:grey;
+	display: inline-flex;
+	flex-direction:row;
+	height:190px;
+	justify-content: space-between;
+	padding-top: 5px
+	padding-left: 5px;
+	padding-right: 5px; 
+
+
+}
+.flexobjetnormaux{
+	border:2px double black;
+	background-color:grey;
+	display:flex;
+	flex-direction:row;
+	height:190px;
+	justify-content: space-between;
+	padding-top: 5px;
+	padding-left: 5px;
+	padding-right: 5px; 
+
+
+}
+.container{
+	background-color:white;
+	display: flex;
+	border:2px solid black;
+	flex-direction:column;
+	flex-wrap:wrap; 
+	justify-content:flex-start;
+	padding-right: 5px;
+	padding-left: 5px;
+}
+
+.Accesauformulaire{
+	border: 10px solid black;
+	border-radius: 30px;
+	background-color: grey;
+	display: flex;
+	justify-content: center;
+
+}
+.bordure {
+	border-radius: 30px;
+	border: 2px solid black;
+	height: 180px;
+	width: 180px;
+}
+#header{
+	padding-bottom: 5px;
+	padding-top: 5px;
+	border:2px double black;
+	height:300px;
+	width: 1400px;
+}
+.formulaire{
+	border:10px solid black;	
+	border-radius: 30px;
+	margin:0px;
+	margin-left: 300px;	
+	text-align: center;
+	display: block;
+	height: 400px;
+	width: 600px;
+
+}
+header {
+	width: 100%;
+	display: flex;
+	justify-content:flex-start;
+}
+a{
+	text-decoration: none;
+	color: black;
+}
+
+
+
