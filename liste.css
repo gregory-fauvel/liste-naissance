@@ -1,112 +1,120 @@
-.flex{
-	color: white;
-	font-size:100px;
-	text-align: center;
-	padding:15px;
-	height:100px; 	
-}
-.flexObjetdéjaacheté{
-	border: 2px double black;
-	background-color:grey;
-	display: inline-flex;
-	flex-direction:row; 
-	height:190px;
-	justify-content: space-between;
-	padding-top:5px;
-	padding-left: 5px;
-	padding-right: 5px; 
-
-}
-.flexObjetselectionnépardesamis{
-	border:2px double black;
-	background-color:grey;
-	display:inline-flex;
-	flex-direction: row;
-	height:190px; 
-	justify-content: space-between;
-	padding-top: 5px;
-	padding-left: 5px;
-	padding-right: 5px; 
-
-	
-
-}
-.flexObjeturgent{
-	border:2px double black;
-	background-color:grey;
-	display: inline-flex;
-	flex-direction:row;
-	height:190px;
-	justify-content: space-between;
-	padding-top: 5px
-	padding-left: 5px;
-	padding-right: 5px; 
-
-
-}
-.flexobjetnormaux{
-	border:2px double black;
-	background-color:grey;
-	display:flex;
-	flex-direction:row;
-	height:190px;
-	justify-content: space-between;
-	padding-top: 5px;
-	padding-left: 5px;
-	padding-right: 5px; 
-
-
-}
-.container{
-	background-color:white;
+header{
 	display: flex;
-	border:2px solid black;
-	flex-direction:column;
-	flex-wrap:wrap; 
-	justify-content:flex-start;
-	padding-right: 5px;
-	padding-left: 5px;
-}
+	flex-direction: column;
+	width: 100%;
 
-.Accesauformulaire{
-	border: 10px solid black;
-	border-radius: 30px;
-	background-color: grey;
+}
+#image{
+	display: flex;
+	align-items: center;
+	width: 94%;
+	height: 350px;
+	padding-left: 60px;
+	padding-right: 60px;
+}
+h1{
 	display: flex;
 	justify-content: center;
+	font-size: 50px;
+	font-family: police;
+}
+
+
+body{
+	background-image: url("image/biberon.jpg");
+	
+}
+th{
+	font-family: police;
+	color: black;
+	font-size: 26px;
+	margin-bottom : 60px;
 
 }
+a{
+	text-decoration: none;
+	font-family: police;
+	color: black;
+}
+@font-face {
+
+  font-family :'police';
+  src: url('Bubblegum.ttf') format('truetype');
+  }
+
+table{
+	width: 100%;
+}
+thead tr {
+	
+}
+tbody tr{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+
+}
+
+#tableau{
+	padding-top: 60px;
+	margin-top: 120px;
+	margin-right: 60px;
+	margin-left: 60px;
+	padding-bottom: 120px;
+	border-radius:20px;
+	background-color:#e4808094; 
+
+}
+
 .bordure {
 	border-radius: 30px;
-	border: 2px solid black;
-	height: 180px;
-	width: 180px;
+	height: 200px;
+	width: 280px;
 }
-#header{
-	padding-bottom: 5px;
-	padding-top: 5px;
-	border:2px double black;
-	height:300px;
-	width: 1400px;
+#Accesauformulaire{
+	display: flex;
+	flex-direction:column;
+	justify-content: center;
+	align-items: center;
+	background-color:#e4808094; 
+	border-radius: 20px;
+	margin-top: 30px;
+	margin-left: 60px;
+	margin-right: 60px;
+	padding-top: 30px;
+	padding-bottom: 30px;
 }
+
 .formulaire{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
 	border:10px solid black;	
 	border-radius: 30px;
-	margin:0px;
-	margin-left: 300px;	
+	margin:0px;	
 	text-align: center;
 	display: block;
+	margin-top: 120px;
 	height: 400px;
 	width: 600px;
 
 }
-header {
-	width: 100%;
-	display: flex;
-	justify-content:flex-start;
+input {
+	border-radius: 20px;
+	font-family: police;
 }
-a{
-	text-decoration: none;
+label{
+	font-family: police;
+}
+#form{
+	display: flex;
+	flex-direction:row;
+	justify-content: center;
+
+}
+p{
+	font-size: 20px;
+	font-family: police;
 	color: black;
 }
 
